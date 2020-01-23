@@ -1,0 +1,30 @@
+programs
+git:
+https://projects.raspberrypi.org/en/projects/getting-started-with-git/4
+rasbian HU image
+
+modules used
+build-essential python-dev
+Adafruit_Python_DHT
+spidev
+
+resource-links
+http://github.com/adafruit/Adafruit_Python_DHT.git
+https://raw.githubusercontent.com/rainierez/MatrixKeypad_Python/master/matrix_keypad/RPi_GPIO.py
+https://github.com/the-raspberry-pi-guy/lcd
+
+youtube video's
+https://www.youtube.com/watch?v=fR5XhHYzUK0
+
+tutorials
+https://www.freva.com/2019/05/22/dht11-temperature-and-humidity-sensor-on-raspberry-pi/
+https://www.freva.com/2019/05/21/hc-sr501-pir-motion-sensor-on-raspberry-pi/
+https://www.freva.com/2019/06/05/buzzer-on-raspberry-pi-playing-a-melody/
+https://www.freva.com/2019/06/12/light-sensor-on-raspberry-pi/
+https://tutorials-raspberrypi.com/connecz-raspberry-pi-kecpad-code-lock/
+https://pimylifeup.com/raspberry-pi-rfid-rc522/
+
+overige bronnen:
+https://sourceforge.net/p/raspberry-gpio-python/wiki/Inputs/
+https://raspberrypi.stackexchange.com/questions/59668/5v-relay-will-not-close-unless-using-gpio-cleanup
+

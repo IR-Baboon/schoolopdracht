@@ -1,0 +1,43 @@
++-----+------+-------+------+------+
+| Pin | Mode | Value | name | GPIO |Parts
++-----+------+-------+------+------+
+|   1 | OUT  | 3.3V  |      |      |RFID vcc, RELAY VCC
+|   2 | OUT  | 5V    |      |      |PIR VCC, LRD VCC
+|   3 | MD   | Low   | SDA1 |  02  |HD44780 SDA
+|   4 | OUT  | 5V    |      |      |,HD44780 VCC 
+|   5 | MD   | Low   | SCL1 |  03  |HD44780 SCL
+|   6 | IN   | GND   |      |      |DHT11
+|   7 | MD   | Low   | GCLK |  04  |KEYPAD input 7
+|   8 | IN   | Low   | TXDO |  14  |
+|   9 | IN   | GND   |      |      |RFID GND
+|  10 | IN   | Low   | RXDO |  15  |
+|  11 | IN   | Low   | GEN0 |  17  |
+|  12 | IN   | Low   | GEN1 |  18  |RELAY IN
+|  13 | IN   | Low   | GEN2 |  27  |KEYPAD input 6
+|  14 | IN   | GND   |      |      |
+|  15 | IN   | Low   | GEN3 |  22  |KEYPAD input 5
+|  16 | IN   | Low   | GEN4 |  23  |PIR DATA
+|  17 | OUT  | 3.3V  |      |      |DHT11 VCC
+|  18 | IN   | Low   | GEN5 |  24  |LRD DO
+|  19 | IN   | Low   | MOSI |  10  |RFID MOSI
+|  20 | IN   | GND   |      |      |buzzer GND, LRD GND
+|  21 | IN   | Low   | MISO |  09  |RFID MISO
+|  22 | IN   | Low   | GEN6 |  25  |RFID RST
+|  23 | IN   | Low   |SPICLK|  11  |RFID SCK
+|  24 | IN   | Low   | CE0N |  08  |RFID SDA
+|  25 | IN   | GND   |      |      |HD44780 GND
+|  26 | IN   | Low   | CE1N |  07  |
+|  27 | IN   | ID_SD |I2C_ID|      |
+|  28 | IN   | ID_SD |I2C_ID|      |
+|  29 | IN   | Low   |GPIO05|  05  |
+|  30 | IN   | GND   |      |      |PIR GND, tilt GND
+|  31 | IN   | Low   |GPIO06|  06  |KEYPAD input 4
+|  32 | IN   | Low   |GPIO12|  12  |DHT11 DATA
+|  33 | IN   | Low   |GPIO13|  13  |KEYPAD input 3
+|  34 | IN   | GND   |      |      |
+|  35 | IN   | Low   |GPIO19|  19  |KEYPAD input 2
+|  36 | IN   | Low   |GPIO16|  16  |tilt trigger
+|  37 | IN   | Low   |GPIO26|  26  |KEYPAD input 1
+|  38 | IN   | Low   |GPIO20|  20  |buzzer POS
+|  39 | IN   | GND   |      |      |RELAY GND
+|  40 | IN   | Low   |GPIO21|  21  |
